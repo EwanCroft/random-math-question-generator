@@ -19,7 +19,7 @@ def generate_formula(operation):
     elif operation == 2:
         return f"{num_1} x {num_2} = {num_1 * num_2}"
     elif operation == 3:
-        return f"{num_1} ÷ {num_2} = {num_1 / num_2}"
+        return f"{num_1} / {num_2} = {num_1 / num_2}"
 
 num_iterations = random.randint(1, 101)
 count = 0
